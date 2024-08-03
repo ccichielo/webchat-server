@@ -1,0 +1,49 @@
+# Build artifacts
+bin/
+obj/
+build/
+
+# Dependency directories
+vendor/
+Godeps/
+*.lock
+
+# Go build output
+*.exe
+*.out
+*.test
+*.prof
+
+# IDE-specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Go modules
+go.sum
+*.mod
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# MacOS Finder
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# Go coverage file
+*.coverage
